@@ -6,7 +6,7 @@ Projet 8 - Nina Carducci
 # Outil utilisé pour minifiez les fichiers
 installer et utiliser terser
     installer : npm install -g terser
-    utiliser : terser chemin/versfichier/nom_du_fichier.js -o chemin/verfichier/nom_du_fichier.min.js --compress _mangle
+    utiliser : terser chemin/versfichier/nom_du_fichier.js -o chemin/verfichier/nom_du_fichier.min.js --compress --mangle
 
 # Outil utilisé pour réduire la taille des images
 Squooch by Google
