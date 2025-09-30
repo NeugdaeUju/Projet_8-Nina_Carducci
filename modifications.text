@@ -1,7 +1,7 @@
 Liste des modifications possibles :
 
 Pour les performances :
-    - Ajouter l'attribut "defer" sur les balises script
+    - Ajouter l'attribut "defer" sur les balises script  OK
     - Minifier les fichiers CSS (avec websiteplanet.com)
     - Minifier les fichiers JS (avec Terser)
     - Réduire le poids des images du slide (200ko max)
