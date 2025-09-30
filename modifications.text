@@ -1,0 +1,24 @@
+Liste des modifications possibles :
+
+Pour les performances :
+    - Ajouter l'attribut "defer" sur les balises script
+    - Minifier les fichiers CSS (avec websiteplanet.com)
+    - Minifier les fichiers JS (avec Terser)
+    - Réduire le poids des images du slide (200ko max)
+    - Réduire le poids des images de la gallery + autres (max 100ko)
+    - Redimensionner les images selon leur contenant
+
+Pour le SEO :
+    - Ajouter l'attribut lang à la balise HTML
+    - Ajouter une balise titre
+    - Ajouter une balise meta description
+    - Ajouter des descriptions aux images (attribut alt)
+    - Redéfinir les titres (de h1 à h4 en respectant la règle d'un H1 par page)
+    - Retravailler le CSS après modification des titres
+    - Ajouter l'attribut for aux labels dnas le formulaire de contacte
+
+Pour les réseaux sociaux et le référencement locale
+    - Ajouter une balise robot
+    - Ajouter les balises meta pour les réseaux sociaux
+    - Ajouter les balises de référencement locale
+    - Vérifier les mots clés utiliser (titre de la pages, titres de sections, description du site, description d'images...)
