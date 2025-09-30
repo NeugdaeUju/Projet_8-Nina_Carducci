@@ -1,9 +1,9 @@
 Liste des modifications possibles :
 
 Pour les performances :
-    - Ajouter l'attribut "defer" sur les balises script  OK
-    - Minifier les fichiers CSS (avec websiteplanet.com)
-    - Minifier les fichiers JS (avec Terser)
+    - Ajouter l'attribut "defer" sur les balises script     OK
+    - Minifier les fichiers CSS (avec websiteplanet.com)    OK
+    - Minifier les fichiers JS (avec Terser)                Partiel
     - Réduire le poids des images du slide (200ko max)
     - Réduire le poids des images de la gallery + autres (max 100ko)
     - Redimensionner les images selon leur contenant
