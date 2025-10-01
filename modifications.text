@@ -6,11 +6,13 @@ Pour les performances :
     - Minifier les fichiers JS (avec Terser)                OK
     - Réduire le poids des images du slide (200ko max)      OK
     - Réduire le poids des images de la gallery + autres (max 100ko)    OK
-    - Redimensionner les images selon leur contenant        Partiel
+    - Redimensionner les images selon leur contenant        OK
             Ecran en 1440px : slider 1440px; gallery 424px; nina 400px ; camera 392px
             Ecran en 1024px : slider 1024px; gallery 304px; nina 392px; camera 380px
             Ecran 768px : slider 768px; gallery 240px; nina 284px; camera 272px;
             Ecran en 450px : slider 450px; gallery 450px; nina 408px (idem 1440px); camera 290px;
+Performances lighthouse avant modification : 69
+Performances lighhouse après modification : 77
 
 Pour le SEO :
     - Ajouter l'attribut lang à la balise HTML
