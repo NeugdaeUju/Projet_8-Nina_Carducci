@@ -4,9 +4,13 @@ Pour les performances :
     - Ajouter l'attribut "defer" sur les balises script     OK
     - Minifier les fichiers CSS (avec websiteplanet.com)    OK
     - Minifier les fichiers JS (avec Terser)                OK
-    - Réduire le poids des images du slide (200ko max)      Partiel
-    - Réduire le poids des images de la gallery + autres (max 100ko)    Partiel
-    - Redimensionner les images selon leur contenant
+    - Réduire le poids des images du slide (200ko max)      OK
+    - Réduire le poids des images de la gallery + autres (max 100ko)    OK
+    - Redimensionner les images selon leur contenant        Partiel
+            Ecran en 1440px : slider 1440px; gallery 424px; nina 400px ; camera 392px
+            Ecran en 1024px : slider 1024px; gallery 304px; nina 392px; camera 380px
+            Ecran 768px : slider 768px; gallery 240px; nina 284px; camera 272px;
+            Ecran en 450px : slider 450px; gallery 450px; nina 408px (idem 1440px); camera 290px;
 
 Pour le SEO :
     - Ajouter l'attribut lang à la balise HTML
@@ -15,7 +19,7 @@ Pour le SEO :
     - Ajouter des descriptions aux images (attribut alt)
     - Redéfinir les titres (de h1 à h4 en respectant la règle d'un H1 par page)
     - Retravailler le CSS après modification des titres
-    - Ajouter l'attribut for aux labels dnas le formulaire de contacte
+    - Ajouter l'attribut for aux labels dans le formulaire de contacte
 
 Pour les réseaux sociaux et le référencement locale
     - Ajouter une balise robot
