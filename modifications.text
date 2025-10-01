@@ -16,7 +16,7 @@ Pour les performances :
     - Ajouter l'attribut loading="lazy" pour les autres images du slider  OK
 
 Performances lighthouse avant modification : 69
-Performances lighhouse après modification : 87
+Performances lighhouse après modification : 88
 Objectif performances lighthouse : min 90
 
 
