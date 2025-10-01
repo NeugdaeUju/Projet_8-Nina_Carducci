@@ -29,9 +29,13 @@ Pour le SEO :
             Liste des keyword :
                 - photographe / photo / photographie
                 - portrait / concert / mariage / entreprise / évènements
-    - Redéfinir les titres (de h1 à h4 en respectant la règle d'un H1 par page)
+    - Redéfinir les titres (de h1 à h4 en respectant la règle d'un H1 par page) OK
     - Retravailler le CSS après modification des titres
     - Ajouter l'attribut for aux labels dans le formulaire de contacte     OK
+
+SEO lighthouse avant modification : 70
+SEO lighthouse après modification : 100
+Objectif SEO lighthouse : min 90
 
 Pour les réseaux sociaux et le référencement locale
     - Ajouter une balise robot
