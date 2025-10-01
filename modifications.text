@@ -25,7 +25,10 @@ Pour le SEO :
     - Ajouter l'attribut lang à la balise HTML            OK
     - Ajouter une balise titre                            OK
     - Ajouter une balise meta description                 OK
-    - Ajouter des descriptions aux images (attribut alt)  
+    - Ajouter des descriptions aux images (attribut alt)  OK
+            Liste des keyword :
+                - photographe / photo / photographie
+                - portrait / concert / mariage / entreprise / évènements
     - Redéfinir les titres (de h1 à h4 en respectant la règle d'un H1 par page)
     - Retravailler le CSS après modification des titres
     - Ajouter l'attribut for aux labels dans le formulaire de contacte     OK
