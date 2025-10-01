@@ -11,6 +11,9 @@ Pour les performances :
             Ecran en 1024px : slider 1024px; gallery 304px; nina 392px; camera 380px
             Ecran 768px : slider 768px; gallery 240px; nina 284px; camera 272px;
             Ecran en 450px : slider 450px; gallery 450px; nina 408px (idem 1440px); camera 290px;
+    - Ajouter des width et height aux images
+    - Ajouter l'attribut rel="preload" sur la première image du slider    OK
+    - Ajouter l'attribut loading="lazy" pour les autres images du slider  OK
 Performances lighthouse avant modification : 69
 Performances lighhouse après modification : 84
 
