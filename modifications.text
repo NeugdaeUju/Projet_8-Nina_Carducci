@@ -12,7 +12,9 @@ Pour les performances :
             Ecran 768px : slider 768px; gallery 240px; nina 284px; camera 272px;
             Ecran en 450px : slider 450px; gallery 450px; nina 408px (idem 1440px); camera 290px;
 Performances lighthouse avant modification : 69
-Performances lighhouse après modification : 77
+Performances lighhouse après modification : 84
+
+
 
 Pour le SEO :
     - Ajouter l'attribut lang à la balise HTML
