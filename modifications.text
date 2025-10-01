@@ -22,13 +22,13 @@ Objectif performances lighthouse : min 90
 
 
 Pour le SEO :
-    - Ajouter l'attribut lang à la balise HTML
-    - Ajouter une balise titre
-    - Ajouter une balise meta description
-    - Ajouter des descriptions aux images (attribut alt)
+    - Ajouter l'attribut lang à la balise HTML            OK
+    - Ajouter une balise titre                            OK
+    - Ajouter une balise meta description                 OK
+    - Ajouter des descriptions aux images (attribut alt)  
     - Redéfinir les titres (de h1 à h4 en respectant la règle d'un H1 par page)
     - Retravailler le CSS après modification des titres
-    - Ajouter l'attribut for aux labels dans le formulaire de contacte
+    - Ajouter l'attribut for aux labels dans le formulaire de contacte     OK
 
 Pour les réseaux sociaux et le référencement locale
     - Ajouter une balise robot
