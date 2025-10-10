@@ -21,3 +21,9 @@ online tool : purifycss.online
 Squooch by Google
 Télécharger l'imga, définir les dimensions puis le format (.webp).
 Poid maximum : 200ko pour les images du sliders, 100ko pour les autres imges
+
+
+# Outil utilisé pour le référencement locale et les réseaux sociaux
+
+https://technicalseo.com/tools/schema-markup-generator/
+

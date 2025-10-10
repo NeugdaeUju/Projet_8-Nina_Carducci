@@ -16,7 +16,7 @@ Pour les performances :
     - Ajouter l'attribut loading="lazy" pour les autres images du slider  OK
 
 Performances lighthouse avant modification : 69
-Performances lighhouse après modification : 89
+Performances lighhouse après modification : 100
 Objectif performances lighthouse : min 90
 
 
@@ -39,6 +39,6 @@ Objectif SEO lighthouse : min 90
 
 Pour les réseaux sociaux et le référencement locale
     - Ajouter une balise robot
-    - Ajouter les balises meta pour les réseaux sociaux
-    - Ajouter les balises de référencement locale
+    - Ajouter les schema.org pour les réseaux sociaux     OK
+    - Ajouter les balises de référencement locale         OK
     - Vérifier les mots clés utiliser (titre de la pages, titres de sections, description du site, description d'images...)
