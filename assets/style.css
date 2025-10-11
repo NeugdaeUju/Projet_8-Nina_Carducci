@@ -6,6 +6,10 @@ body {
 	font-family: 'Inter';
 	font-style: normal;
 }
+img {
+	max-width: 100%;
+	height: auto;
+}
 .top-header {
 	background-color: white;
 	position: sticky;
@@ -84,8 +88,11 @@ body {
 	font-weight: 800;
 	font-style: italic;
 	width: 60%;
+	font-size : 1rem;
+	line-height: 1.2;
+	margin-bottom : 8px;
 }
-#about-me p {
+.about-me__text {
 	width: 80%;
 	font-size: 14px;
 }
@@ -97,12 +104,16 @@ body {
 	text-align: center;
 	padding-block: 2em;
 }
+
+h2 {
+	font-size : calc(1.3rem + 0.6vw);
+}
 .gallery .nav {
 	justify-content: center;
 }
 .nav-pills .nav-link.active, .nav-pills .show > .nav-link {
 	color: #fff;
-	background-color: #BEB45A;
+	background-color: #1B5F6F;
 	border-radius:0 ;
 }
 .nav-pills .nav-link {
@@ -147,6 +158,9 @@ body {
 	font-family: Spectral;
 	font-style: italic;
 	font-weight: 300;
+	font-size : calc(1.375rem + 1.5vw);
+	line-height: 1.2;
+	margin-bottom : 8px;
 
 }
 .quote__author {

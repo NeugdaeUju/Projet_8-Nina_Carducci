@@ -1,24 +1,50 @@
 Liste des modifications possibles :
 
 Pour les performances :
-    - Ajouter l'attribut "defer" sur les balises script
-    - Minifier les fichiers CSS (avec websiteplanet.com)
-    - Minifier les fichiers JS (avec Terser)
-    - Réduire le poids des images du slide (200ko max)
-    - Réduire le poids des images de la gallery + autres (max 100ko)
-    - Redimensionner les images selon leur contenant
+    - Ajouter l'attribut "defer" sur les balises script     OK
+    - Minifier les fichiers CSS (avec websiteplanet.com)    OK
+    - Minifier les fichiers JS (avec Terser)                OK
+    - Réduire le poids des images du slide (200ko max)      OK
+    - Réduire le poids des images de la gallery + autres (max 100ko)    OK
+    - Redimensionner les images selon leur contenant        OK
+            Ecran en 1440px : slider 1440px; gallery 424px; nina 400px ; camera 392px
+            Ecran en 1024px : slider 1024px; gallery 304px; nina 392px; camera 380px
+            Ecran 768px : slider 768px; gallery 240px; nina 284px; camera 272px;
+            Ecran en 450px : slider 450px; gallery 450px; nina 408px (idem 1440px); camera 290px;
+    - Ajouter des width et height aux images                              OK
+    - Ajouter l'attribut rel="preload" sur la première image du slider    OK
+    - Ajouter l'attribut loading="lazy" pour les autres images du slider  OK
+
+Performances lighthouse avant modification : 69
+Performances lighhouse après modification : 100
+Objectif performances lighthouse : min 90
+
+
 
 Pour le SEO :
-    - Ajouter l'attribut lang à la balise HTML
-    - Ajouter une balise titre
-    - Ajouter une balise meta description
-    - Ajouter des descriptions aux images (attribut alt)
-    - Redéfinir les titres (de h1 à h4 en respectant la règle d'un H1 par page)
-    - Retravailler le CSS après modification des titres
-    - Ajouter l'attribut for aux labels dnas le formulaire de contacte
+    - Ajouter l'attribut lang à la balise HTML            OK
+    - Ajouter une balise titre                            OK
+    - Ajouter une balise meta description                 OK
+    - Ajouter des descriptions aux images (attribut alt)  OK
+            Liste des keyword :
+                - photographe / photo / photographie
+                - portrait / concert / mariage / entreprise / évènements
+    - Redéfinir les titres (de h1 à h4 en respectant la règle d'un H1 par page) OK
+    - Retravailler le CSS après modification des titres                    OK
+    - Ajouter l'attribut for aux labels dans le formulaire de contacte     OK
+
+SEO lighthouse avant modification : 70
+SEO lighthouse après modification : 100
+Objectif SEO lighthouse : min 90
 
 Pour les réseaux sociaux et le référencement locale
-    - Ajouter une balise robot
-    - Ajouter les balises meta pour les réseaux sociaux
-    - Ajouter les balises de référencement locale
-    - Vérifier les mots clés utiliser (titre de la pages, titres de sections, description du site, description d'images...)
+    - Ajouter une balise robot                            OK
+    - Ajouter les schema.org pour les réseaux sociaux     OK
+    - Ajouter les balises de référencement locale         OK
+    - Vérifier les mots clés utiliser (titre de la pages, titres de sections, description du site, description d'images...)  OK
+
+
+Pour l'accessibilité
+    - Corriger le contraste sur le bouton de la gallery (correspondre au mieux à la palette de couleur du site)
+    - Corriger le contraste sur les boutons de navigation du caroussel (sliders)
+    - Vérifier avec Wave
