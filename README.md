@@ -26,4 +26,4 @@ Poid maximum : 200ko pour les images du sliders, 100ko pour les autres imges
 # Outil utilisé pour le référencement locale et les réseaux sociaux
 
 https://technicalseo.com/tools/schema-markup-generator/
-
+Ajout des balises OpenGraph et TwitterCard
